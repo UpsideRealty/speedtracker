@@ -61,4 +61,12 @@ budgets:
     metric: fullyLoaded
     max: 12
     alerts: ["emailAlert", "slackAlert"]
+  -
+    metric: TTFB
+    max: 0.8
+    alerts: ["emailAlert", "slackAlert"]
+  -
+    metric: pagespeed
+    max: 25
+    alerts: ["emailAlert", "slackAlert"]
 ---
