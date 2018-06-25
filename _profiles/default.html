@@ -59,14 +59,18 @@ parameters:
 budgets:
   -
     metric: fullyLoaded
-    max: 12
+    max: 15000
     alerts: ["emailAlert", "slackAlert"]
   -
     metric: TTFB
-    max: 0.8
+    max: 300
     alerts: ["emailAlert", "slackAlert"]
   -
     metric: pagespeed
-    max: 25
+    min: 75
+    alerts: ["emailAlert", "slackAlert"]
+  -
+    metric: breakdown.js.bytes
+    max: 1560000
     alerts: ["emailAlert", "slackAlert"]
 ---
