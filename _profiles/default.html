@@ -73,4 +73,12 @@ budgets:
     metric: breakdown.js.bytes
     max: 1630000
     alerts: ["emailAlert", "slackAlert"]
+  -
+    metric: SpeedIndex
+    max: 1200
+    alerts: ["emailAlert", "slackAlert"]
+  -
+    metric: visualComplete
+    max: 500
+    alerts: ["emailAlert", "slackAlert"]
 ---
