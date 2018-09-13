@@ -86,7 +86,7 @@ alerts:
     recipients: ["54270ba79d4ed50caacf2623a488169683bad371bbd2703a4cef54d4fc6acf66"]
   slackAlert:
     type: "slack"
-    hookUrl: "573609be805f8953a7c52d3ca5c7069187abf82aa8ce74715aa445cdf827cb600a2d13c1b04099a63f972b2a7d2e03b7fe35500f7cd471d461391111eef44e6ea61985a2c579d9d58e5fe26dd5"
+    hookUrl: "573609be805f8953a7c52d3ca5c7069187abf82aa8ce74715aa445cdf827cb600a2d13c1b04099a63f972b2a7c397aa58d31516d7ce725f35f1d457382d5546e8b34add6d42cb4808c1ae137c3"
     channel: "#speedtracker"
     username: "SpeedTracker"
     iconEmoji: ":grimacing:"
